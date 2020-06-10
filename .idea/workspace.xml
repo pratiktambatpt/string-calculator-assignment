@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2c0e8fa-82d8-423a-87d2-0ca1ee83f5f9" name="Default Changelist" comment="" />
+    <list default="true" id="a2c0e8fa-82d8-423a-87d2-0ca1ee83f5f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stirng/calculator/NumbersParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stirng/calculator/StringCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/string/calculator/StringCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,10 +35,97 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/stirng/calculator" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.string.calculator" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/stirng/calculator" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.StringCalculatorTest.usesCustomSeparatorDefinedInFirstLineOfInput">
+    <configuration name="StringCalculatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.string.calculator.StringCalculatorTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="StringCalculatorTest.givenEmptyStringReturnsZero" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.string.calculator.StringCalculatorTest.givenEmptyStringReturnsZero&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="StringCalculatorTest.usesCustomSeparatorDefinedInFirstLineOfInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.string.calculator.StringCalculatorTest.usesCustomSeparatorDefinedInFirstLineOfInput&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.StringCalculatorTest.usesCustomSeparatorDefinedInFirstLineOfInput" />
+        <item itemvalue="Gradle.StringCalculatorTest" />
+        <item itemvalue="Gradle.StringCalculatorTest.givenEmptyStringReturnsZero" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -43,13 +137,77 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591766288070</updated>
+      <workItem from="1591766290333" duration="1981000" />
     </task>
+    <task id="LOCAL-00001" summary="project">
+      <created>1591766412960</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591766412960</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project" />
+    <option name="LAST_COMMIT_MESSAGE" value="project" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="311" y="58" width="800" height="677" key="#Project_Structure" timestamp="1591766454113">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="311" y="58" width="800" height="677" key="#Project_Structure/67.27.1299.741@67.27.1299.741" timestamp="1591766454113" />
     <state x="345" y="201" width="733" height="391" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591766391990">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="345" y="201" width="733" height="391" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1591766391990" />
+    <state x="178" y="27" width="1067" height="741" key="CommitChangelistDialog2" timestamp="1591766412884">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="178" y="27" width="1067" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1591766412884" />
+    <state width="1253" height="264" key="GridCell.Tab.0.bottom" timestamp="1591768207722">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="264" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1591768207722" />
+    <state width="1253" height="264" key="GridCell.Tab.0.center" timestamp="1591768207721">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="264" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1591768207721" />
+    <state width="1253" height="264" key="GridCell.Tab.0.left" timestamp="1591768207721">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="264" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1591768207721" />
+    <state width="1253" height="264" key="GridCell.Tab.0.right" timestamp="1591768207722">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="264" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1591768207722" />
+    <state width="1253" height="264" key="GridCell.Tab.1.bottom" timestamp="1591768207723">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="264" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1591768207723" />
+    <state width="1253" height="264" key="GridCell.Tab.1.center" timestamp="1591768207723">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="264" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1591768207723" />
+    <state width="1253" height="264" key="GridCell.Tab.1.left" timestamp="1591768207722">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="264" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1591768207722" />
+    <state width="1253" height="264" key="GridCell.Tab.1.right" timestamp="1591768207723">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="264" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1591768207723" />
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1591766419694">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1591766419694" />
+    <state x="380" y="175" key="run.anything.popup" timestamp="1591767980340">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="380" y="175" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1591767980340" />
   </component>
 </project>
