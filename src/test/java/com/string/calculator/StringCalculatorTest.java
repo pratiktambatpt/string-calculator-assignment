@@ -66,12 +66,6 @@ public class StringCalculatorTest {
         assertResultForGivenInputStringIs(singleBigNumber, 2);
     }
 
-    @Test
-    public void regexSpecialCharactersCanBeSeparatorsToo() throws Exception {
-        String dotSeparatedNumbers = "//[***]\n1***2***3";
-        assertResultForGivenInputStringIs(dotSeparatedNumbers, 1 + 2 + 3);
-    }
-
     private void assertInputStringCausesExceptionToBeThrownWithMessage(String inputString, String expectedErrorMsg) {
         try {
             calculateSum(inputString);
